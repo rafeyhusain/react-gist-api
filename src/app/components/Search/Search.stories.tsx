@@ -7,4 +7,4 @@ export default {
   component: Search,
 };
 
-export const Default = (): JSX.Element => <Search />;
+export const Default = (): JSX.Element => <Search onSearch={() => {}}/>;

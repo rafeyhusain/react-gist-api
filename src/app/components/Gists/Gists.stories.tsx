@@ -38,4 +38,4 @@ const gists = {
   ]
 };
 
-export const GistsText = (): JSX.Element => <Gists {...gists.fx}>Gists</Gists>;
+export const GistsText = (): JSX.Element => <Gists {...gists}>Gists</Gists>;
