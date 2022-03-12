@@ -3,11 +3,12 @@ import { IGist, IFile } from '../../sdk/IGist';
 import File from '../File/File'
 
 function Gist(gist: IGist): JSX.Element {
-  let content: [] = []
+  let content: React.ReactElement[] = []
 
   const showFiles = (gist: IGist) => {
     for (const key in gist.files) {
       const file: IFile = gist.files[key]
+      
       content.push(<File key={file.filename} {...file}></File>)
     }
   }

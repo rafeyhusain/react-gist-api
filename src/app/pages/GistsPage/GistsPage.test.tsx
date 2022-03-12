@@ -7,7 +7,7 @@ test('renders without crash', () => {
   () =>
     render(
       <MemoryRouter>
-        <Route path="/:currency?" children={<GistsPage />} />
+        <Route path="/" children={<GistsPage />} />
       </MemoryRouter>
     );
 });

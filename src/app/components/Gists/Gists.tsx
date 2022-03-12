@@ -3,10 +3,10 @@ import Gist from '../Gist/Gist';
 import { IGist } from '../../sdk/IGist';
 
 type GistsProps = {
-  gists: IGist[];
-};
+  gists: IGist[]
+}
 
-function Gists({ gists }: GistsProps): JSX.Element {
+function Gists({gists}: GistsProps): JSX.Element {
   if (!gists) {
     return <div>Not found</div>
   }

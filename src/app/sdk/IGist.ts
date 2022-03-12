@@ -8,6 +8,7 @@ export interface IFile {
 
 export interface IFiles {
   list: any;
+  [key: string]: IFile;
 }
 
 export interface IOwner {

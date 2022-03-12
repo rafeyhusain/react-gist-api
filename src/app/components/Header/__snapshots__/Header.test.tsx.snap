@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header component tests Snapshot test for Header 1`] = `
+<div
+  className="text-2xl pl-2 leading-relaxed text-left bg-blue-400"
+>
+  Gist Explorer
+</div>
+`;

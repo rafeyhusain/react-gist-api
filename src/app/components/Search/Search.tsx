@@ -27,7 +27,7 @@ function Search({ onSearch }: SearchProps): JSX.Element {
       onChange={handleChange}
       placeholder=" e.g. rafeyhusain" />&nbsp;
     <button
-      className="bg-yellow-500 hover:bg-yellow-700 text-white font-bold py-2 px-4 rounded"
+      className="bg-yellow-500 hover:bg-yellow-400 text-white py-2 px-4 rounded"
       onClick={handleClick}>Search</button>
   </div >;
 }

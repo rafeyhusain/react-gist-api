@@ -9,7 +9,7 @@ React, Jest, Vite, Tailwind CSS, StoryBook
 To list all gist:
 
 ```html
-http://localhost:3001/
+http://localhost:3000/
 ```
 
 ## Installing / Developing
@@ -75,3 +75,5 @@ npm testw
 
 ## TODO List
 - Integrate npm module https://github.com/exuanbo/file-icons-js for more file icons other than JavaScript, CSS, HTML
+- Snapshot tests are added for Header and Search components. Snapshot test could be added to other components as well
+- 

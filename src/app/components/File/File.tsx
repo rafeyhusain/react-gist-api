@@ -1,11 +1,7 @@
 import React from 'react';
 import { IFile } from '../../sdk/IGist';
 
-type FileProps = {
-  file: IFile
-};
-
-function File(file: FileProps): JSX.Element {
+function File(file: IFile): JSX.Element {
   if (!file) {
     return <></>
   }
